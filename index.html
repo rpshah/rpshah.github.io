@@ -189,6 +189,162 @@
 	</div>
 	<!-- //modal -->	<!-- for about modal -->
 
+<!-- Stats --> 
+<div class="col-md-8 stats news-w3layouts">  
+	<div class="stats-info agileits-w3layouts">
+		<div class="col-sm-4 col-xs-6 stats-grid">
+			<div class="stats-img">
+				<i class="fa fa-heartbeat" aria-hidden="true"></i>
+			</div>
+			<p>Languages</p>
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='10' data-delay='.5' data-increment="1">10</div>
+		</div>
+		<div class="col-sm-4 col-xs-6 stats-grid">
+			<div class="stats-img w3-agileits">
+				<i class="fa fa-code" aria-hidden="true"></i>
+			</div>	
+			<p>Lines of Code</p> 
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='25769' data-delay='.5' data-increment="1000">25789</div>
+		</div>
+		<div class="col-sm-4 col-xs-6 stats-grid">
+			<div class="stats-img w3-agileits">
+				<i class="fa fa-code-fork" aria-hidden="true"></i>
+			</div>
+			<p>Projects</p>
+			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='20' data-delay='.5' data-increment="1">20</div>
+		</div>
+		<div class="clearfix"></div>
+	</div> 
+</div>  
+<div class="col-md-4 projects-right1">
+	<img src="images/stats.jpg" alt="" />
+</div>
+<div class="clearfix"></div>
+<!-- //Stats -->  
+
+
+<!-- Education and Work experience -->
+		<!-- education -->
+		<div class="experience" id="experience">
+			<div class="container">
+				<!--div class="experience-head text-center ">
+					<h3>Education and work experience</h3>
+				</div-->
+		<div class="col-md-12 abt-left" id="education">
+				<h3>Education</h3>
+				<div class="accordion">
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-1">
+									<span>2013 - 2017</span> Graduation in Computer Engineering
+								<i class="glyphicon glyphicon-chevron-down"></i>
+								</a></h5>
+								<div id="accordion-1" class="accordion-section-content">
+									<h6>Educational</h6>
+									<ul>
+										<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>University : Gujarat Technological University,GTU</li>
+										<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Major Subjects : 
+											<ol>
+												<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>C,C++,Java,PHP progarmming</li>
+												<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Data structures and Algorithms</li>
+												<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Database Design</li>
+												<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Software Design</li>
+											</ol>
+										</li>
+										<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>CPI : 8.24 / 10</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="accordion-section">
+								<h5><a class="accordion-section-title" href="#accordion-2">
+									<span>2011 - 2013</span>Schooling : SSC - HSC
+								<i class="glyphicon glyphicon-chevron-down"></i>
+								</a></h5>
+								<div id="accordion-2" class="accordion-section-content">
+									<h6>Schooling</h6>
+									<ul>
+										<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span>School : Shree Vidyanagar High School</li>
+										<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span>SSC(Gujarat Board) : 91.80% </li>
+										<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span>HSC(Gujarat Board) - Science Stream : 84.00% </li>
+									</ul>
+								</div>
+							</div>
+
+							
+				</div>
+				<script>
+							jQuery(document).ready(function() {
+								function close_accordion_section() {
+									jQuery('.accordion .accordion-section-title').removeClass('active');
+									jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+								}
+
+								jQuery('.accordion-section-title').click(function(e) {
+									// Grab current anchor value
+									var currentAttrValue = jQuery(this).attr('href');
+
+									if(jQuery(e.target).is('.active')) {
+										close_accordion_section();
+									}else {
+										close_accordion_section();
+
+										// Add active class to section title
+										jQuery(this).addClass('active');
+										// Open up the hidden content panel
+										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+									}
+
+									e.preventDefault();
+								});
+							});
+								</script>
+				<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+		</div>
+		<!-- //education -->
+
+		<!-- experience -->
+					<div class="col-md-12 w3-agileits-info" id="workexperience">  
+						<h3 class="exp">work experience</h3>
+						<div class="experience-grids">
+							<div class="experience-left">
+								<h3>2015 - Now </h3>
+								<h5>Company Name </h5>
+							</div>
+							<div class="experience-right">
+								<h4>Senior Web Designer</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div> 
+						<div class="experience-grids experience-grids-btm">
+							<div class="experience-left">
+								<h3>2011 - 2015</h3>
+								<h5>Company Name </h5>
+							</div>
+							<div class="experience-right">
+								<h4>Web Designer & Developer</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="experience-grids w3-agileits">
+							<div class="experience-left">
+								<h3>2009 - 2011</h3>
+								<h5>Company Name </h5>
+							</div>
+							<div class="experience-right">
+								<h4>Graphic Designer</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<!-- //experience -->
+<!-- Education and Work experience -->
+
+
 <!-- services -->
 <div id="services" class="services">
 	<div class="container">
@@ -622,167 +778,7 @@
 </div>
 <!-- //portfolio -->
 
-<!-- Stats --> 
-<div class="col-md-8 stats news-w3layouts">  
-	<div class="stats-info agileits-w3layouts">
-		<div class="col-sm-4 col-xs-6 stats-grid">
-			<div class="stats-img">
-				<i class="fa fa-check-square-o" aria-hidden="true"></i>
-			</div>
-			<p>Projects</p>
-			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='324' data-delay='.5' data-increment="1">324</div>
-		</div>
-		<div class="col-sm-4 col-xs-6 stats-grid">
-			<div class="stats-img w3-agileits">
-				<i class="fa fa-heart-o" aria-hidden="true"></i>
-			</div>	
-			<p>Happy Clients</p> 
-			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='200' data-delay='.5' data-increment="1">200</div>
-		</div>
-		<div class="col-sm-4 col-xs-6 stats-grid">
-			<div class="stats-img w3-agileits">
-				<i class="fa fa-trophy" aria-hidden="true"></i>
-			</div>
-			<p>Awards</p>
-			<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='156' data-delay='.5' data-increment="1">156</div>
-		</div>
-		<div class="clearfix"></div>
-	</div> 
-</div>  
-<div class="col-md-4 projects-right1">
-	<img src="images/stats.jpg" alt="" />
-</div>
-<div class="clearfix"></div>
-<!-- //Stats -->  
 
-<!-- Education and Work experience -->
-		<!-- education -->
-		<div class="experience" id="experience">
-			<div class="container">
-				<div class="experience-head text-center ">
-					<h3>Education and work experience</h3>
-				</div>
-		<div class="col-md-12 abt-left" id="education">
-				<h3>Education</h3>
-				<div class="accordion">
-							<div class="accordion-section">
-								<h5><a class="accordion-section-title" href="#accordion-1">
-									<span>2012 - 2016</span> Graduation in Professional National University
-								<i class="glyphicon glyphicon-chevron-down"></i>
-								</a></h5>
-								<div id="accordion-1" class="accordion-section-content">
-									<h6>Projects & Awards</h6>
-									<ul>
-										<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Awards become corroded, friends gather no dust.</a></li>
-										<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Done a multi national project with clean & accesory design</a></li>
-										<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">doloremque laudantium</a></li>
-									</ul>
-								</div>
-							</div>
-
-							<div class="accordion-section">
-								<h5><a class="accordion-section-title" href="#accordion-2">
-									<span>2009 - 2010</span> Diploma in Advertising & Graphic Design
-								<i class="glyphicon glyphicon-chevron-down"></i>
-								</a></h5>
-								<div id="accordion-2" class="accordion-section-content">
-									<h6>Seminars</h6>
-									<ul>
-										<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a href="#">voluptatem accusantium</a></li>
-										<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a href="#">accusantium doloremque</a></li>
-										<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a href="#">doloremque laudantium</a></li>
-									</ul>
-								</div>
-							</div>
-
-							<div class="accordion-section">
-								<h5><a class="accordion-section-title" href="#accordion-3">
-									<span>2007 - 2009</span> Accesory Designer in University of cambridge
-								<i class="glyphicon glyphicon-chevron-down"></i>
-								</a></h5>
-								<div id="accordion-3" class="accordion-section-content">
-									<h6>Competitions</h6>
-									<ul>
-										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">voluptatem accusantium</a></li>
-										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">accusantium doloremque</a></li>
-										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">doloremque laudantium</a></li>
-									</ul>
-								</div>
-							</div>
-							
-							
-				</div>
-				<script>
-							jQuery(document).ready(function() {
-								function close_accordion_section() {
-									jQuery('.accordion .accordion-section-title').removeClass('active');
-									jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-								}
-
-								jQuery('.accordion-section-title').click(function(e) {
-									// Grab current anchor value
-									var currentAttrValue = jQuery(this).attr('href');
-
-									if(jQuery(e.target).is('.active')) {
-										close_accordion_section();
-									}else {
-										close_accordion_section();
-
-										// Add active class to section title
-										jQuery(this).addClass('active');
-										// Open up the hidden content panel
-										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
-									}
-
-									e.preventDefault();
-								});
-							});
-								</script>
-				<script type="text/javascript" src="js/numscroller-1.0.js"></script>
-		</div>
-		<!-- //education -->
-
-		<!-- experience -->
-					<div class="col-md-12 w3-agileits-info" id="workexperience">  
-						<h3 class="exp">work experience</h3>
-						<div class="experience-grids">
-							<div class="experience-left">
-								<h3>2015 - Now </h3>
-								<h5>Company Name </h5>
-							</div>
-							<div class="experience-right">
-								<h4>Senior Web Designer</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div> 
-						<div class="experience-grids experience-grids-btm">
-							<div class="experience-left">
-								<h3>2011 - 2015</h3>
-								<h5>Company Name </h5>
-							</div>
-							<div class="experience-right">
-								<h4>Web Designer & Developer</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="experience-grids w3-agileits">
-							<div class="experience-left">
-								<h3>2009 - 2011</h3>
-								<h5>Company Name </h5>
-							</div>
-							<div class="experience-right">
-								<h4>Graphic Designer</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non convallis felis mattis at</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-			</div>
-		</div>
-		<!-- //experience -->
-<!-- Education and Work experience -->
 
 <!-- coding skills --
 <div class="education" id="skills">
@@ -873,7 +869,7 @@
 				<h3>contact me</h3>
 			</div>
 			<div class="agileits_agile_about_mail">
-				<form action="#" method="post">
+				<form action="mailto:rpshah_96@yahoo.com" method="post">
 					<div class="col-md-6 agileits_agile_about_mail_left">
 						<input type="text" name="Name" placeholder="Name" required="">
 						<input type="text" name="Subject" placeholder="Subject" required="">
